@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "target": "es3",
+      "lib": [
+        "es5",
+        "es6",
+        "dom",
+        "dom.iterable",
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitThis": false,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "preserve",
+      "experimentalDecorators":true,
+      "baseUrl": ".",
+      "rootDir": "./client",
+      "paths": {
+        "@/*":["./client/*"]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ]
+    // "include": [
+    //   "."
+    // ]
+  }
+  
